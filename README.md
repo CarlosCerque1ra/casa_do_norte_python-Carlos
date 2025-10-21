@@ -1,28 +1,91 @@
-# Controle de Estoque de Comidas Nordestinas
+# 🥘 Controle de Estoque: Comidas Nordestinas
 
-Este é um sistema desenvolvido em Python utilizando a biblioteca Tkinter para interface gráfica. O sistema tem como objetivo a gestão de entradas, saídas e cadastro de comidas típicas da região nordestina do Brasil.
+Sistema desenvolvido em **Python (Tkinter + SQLite)** para controle de estoque de pratos e comidas típicas nordestinas.  
+O projeto permite o **cadastro, edição e gestão de alimentos**, além de controle de **entradas e saídas de estoque**.
 
-## Funcionalidades
+---
 
-- Login de usuários: permite que diferentes usuários acessem o sistema com autenticação.
-- Cadastro, consulta, edição e exclusão de comidas típicas da culinária nordestina.
-- Registro e histórico detalhado das movimentações no estoque (entradas e saídas).
-- Alertas visuais para avisar quando o estoque de um alimento está abaixo do nível mínimo definido.
+## 📸 Telas do Sistema
 
-## Execução
+### 🔐 Tela de Login
+Permite que o usuário acesse o sistema com seu nome e senha.
+![Tela de Login](cf33ea59-7712-4e71-8003-42167e6004d9.png)
 
-1. Execute o arquivo `db_init.sql` para criar o banco de dados com suas tabelas e dados iniciais, ou deixe o sistema criar automaticamente no primeiro uso.
-2. Execute o arquivo `main.py` para iniciar o sistema e acessar a interface gráfica.
+---
 
-## Estrutura de arquivos
+### 🏠 Tela Inicial / Boas-vindas
+Após o login, o usuário é saudado e pode escolher entre as opções disponíveis no menu.
+![Tela Inicial](128958ac-3f01-43de-a83c-d7486f7a5945.png)
 
-- `main.py` : Arquivo principal que inicializa o sistema e gerencia as telas principais.
-- `db.py` : Responsável pela conexão e inicialização do banco de dados SQLite.
-- `login.py` : Tela e lógica de autenticação dos usuários.
-- `comidas.py` : Cadastro, edição, exclusão e exibição das comidas típicas.
-- `estoque.py` : Gestão das quantidades no estoque e registro das movimentações.
-- `utils.py` : Funções auxiliares diversas, como centralização de janelas e ordenação.
-- `db_init.sql` : Script SQL para criação do banco de dados com tabelas e dados iniciais.
-- `README.md` : Este arquivo, com orientações e informações gerais sobre o sistema.
+---
 
-**Requisitos:** Python 3.12 ou superior, Tkinter e SQLite.
+### 📦 Gestão de Estoque
+Visualização dos pratos cadastrados, suas quantidades e o estoque mínimo definido.
+![Gestão de Estoque](1b8a18af-a71b-4c91-84d0-31b7a679d76e.png)
+
+---
+
+### 🍛 Cadastro de Comidas
+Permite buscar, editar, excluir e adicionar novos pratos típicos nordestinos.
+![Cadastro de Comidas](a424f1cc-b125-4be1-bffd-4a2874e0a6f3.png)
+
+---
+
+### 📝 Formulário de Cadastro / Edição
+Formulário para registrar novas comidas, com campos como nome, descrição, categoria, origem e calorias.
+![Formulário de Cadastro](ea796da4-6433-47fa-94c4-415bf4858383.png)
+
+---
+
+## ⚙️ Funcionalidades Principais
+
+- Login de usuários
+- Cadastro e edição de pratos típicos
+- Consulta e controle de estoque
+- Registro de movimentações (entradas e saídas)
+- Interface gráfica simples e intuitiva com **Tkinter**
+- Banco de dados local em **SQLite**
+
+---
+
+## 🧰 Tecnologias Utilizadas
+
+- **Python 3**
+- **Tkinter** – Interface gráfica
+- **SQLite3** – Banco de dados local
+- **Pillow** – Manipulação de ícones e imagens (opcional)
+
+---
+
+## 💾 Como Executar o Projeto
+
+1. Faça o download ou clone o repositório:
+   ```bash
+   git clone https://github.com/seuusuario/casa_do_norte_python.git
+   ```
+
+2. Acesse a pasta do projeto:
+   ```bash
+   cd casa_do_norte_python
+   ```
+
+3. Execute o sistema:
+   ```bash
+   python main.py
+   ```
+
+---
+
+## 👨‍💻 Autor
+
+**Carlos Aguiar**  
+Desenvolvido com foco em simplicidade e valorização da culinária nordestina ❤️  
+
+---
+
+## 📂 Arquivo Compactado do Projeto
+
+O código completo está disponível no arquivo:  
+[`casa_do_norte_python-Carlos.zip`](casa_do_norte_python-Carlos.zip)
+
+---

@@ -18,11 +18,11 @@ def ensuredb():
 # Verifica se o arquivo do banco de dados já existe
     if not os.path.exists(DBFILENAME):
         scriptpath = os.path.join(os.path.dirname(__file__), "db_init.sql")
-    if os.path.exists(scriptpath):
-        with getconnection() as conn:
-            with open(scriptpath, "r", encoding="utf-8") as f:
-                conn.executescript(f.read())
+        if os.path.exists(scriptpath):
+            with getconnection() as conn:
+                with open(scriptpath, "r", encoding="utf-8") as f:
+                    conn.executescript(f.read())
 
-    else:
+        else:
 # Gera erro caso o arquivo db_init.sql não esteja disponível
-        raise FileNotFoundError("db_init.sql não encontrado. Coloque db_init.sql na mesma pasta.")
+            raise FileNotFoundError("db_init.sql não encontrado. Coloque db_init.sql na mesma pasta.")
