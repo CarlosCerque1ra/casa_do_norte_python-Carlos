@@ -9,33 +9,42 @@ O projeto permite o **cadastro, edição e gestão de alimentos**, além de cont
 
 ### 🔐 Tela de Login
 Permite que o usuário acesse o sistema com seu nome e senha.
-![Tela de Login](cf33ea59-7712-4e71-8003-42167e6004d9.png)
+<img width="591" height="414" alt="image" src="https://github.com/user-attachments/assets/1f0a2623-9288-40e7-bb38-6e00d189d4dc" />
+
 
 ---
 
 ### 🏠 Tela Inicial / Boas-vindas
 Após o login, o usuário é saudado e pode escolher entre as opções disponíveis no menu.
-![Tela Inicial](128958ac-3f01-43de-a83c-d7486f7a5945.png)
+<img width="1487" height="856" alt="image" src="https://github.com/user-attachments/assets/9137c683-1b16-48b3-8c51-0ba3f7aa1973" />
+
 
 ---
 
 ### 📦 Gestão de Estoque
 Visualização dos pratos cadastrados, suas quantidades e o estoque mínimo definido.
-![Gestão de Estoque](1b8a18af-a71b-4c91-84d0-31b7a679d76e.png)
+<img width="1488" height="860" alt="image" src="https://github.com/user-attachments/assets/98cbd829-0644-45be-adf9-af3fee393147" />
+
 
 ---
 
 ### 🍛 Cadastro de Comidas
 Permite buscar, editar, excluir e adicionar novos pratos típicos nordestinos.
-![Cadastro de Comidas](a424f1cc-b125-4be1-bffd-4a2874e0a6f3.png)
+<img width="1491" height="859" alt="image" src="https://github.com/user-attachments/assets/12e5720b-9b08-4a17-9bba-ffabd77590d5" />
+
 
 ---
 
 ### 📝 Formulário de Cadastro / Edição
 Formulário para registrar novas comidas, com campos como nome, descrição, categoria, origem e calorias.
-![Formulário de Cadastro](ea796da4-6433-47fa-94c4-415bf4858383.png)
+<img width="743" height="857" alt="image" src="https://github.com/user-attachments/assets/9dc92ea0-eb6c-40ad-a585-185ce8d5fd1e" />
+
 
 ---
+
+### Campo de exclusão de comida:
+<img width="1487" height="861" alt="image" src="https://github.com/user-attachments/assets/214c4735-23a7-4f3c-ba0d-6ffe362cf234" />
+
 
 ## ⚙️ Funcionalidades Principais
 
@@ -51,9 +60,7 @@ Formulário para registrar novas comidas, com campos como nome, descrição, cat
 ## 🧰 Tecnologias Utilizadas
 
 - **Python 3**
-- **Tkinter** – Interface gráfica
 - **SQLite3** – Banco de dados local
-- **Pillow** – Manipulação de ícones e imagens (opcional)
 
 ---
 
@@ -76,16 +83,4 @@ Formulário para registrar novas comidas, com campos como nome, descrição, cat
 
 ---
 
-## 👨‍💻 Autor
 
-**Carlos Aguiar**  
-Desenvolvido com foco em simplicidade e valorização da culinária nordestina ❤️  
-
----
-
-## 📂 Arquivo Compactado do Projeto
-
-O código completo está disponível no arquivo:  
-[`casa_do_norte_python-Carlos.zip`](casa_do_norte_python-Carlos.zip)
-
----
